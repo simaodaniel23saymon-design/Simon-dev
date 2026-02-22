@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="px-6 md:px-20 space-y-24">
+      <main className="max-w-6xl mx-auto px-6 py-16 space-y-32">
         <Hero />
         <About />
         <Projects />
